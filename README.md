@@ -54,4 +54,10 @@ Figure 2:
 
 ![Figure 2](analysis/PyBer_fare_summary.png "Figure 2")
 
+Another way to look at the information provided is to look at the Average Fare per City versus the Total Number of Rides per City. The Number of Drivers per City can also be incorporated into this visualization to help tell a more complete story. This is shown below in Figure 3.
+
+Figure 3:
+
+![Figure 3](analysis/Fig3.png "Figure 3")
+
 ## Summary
