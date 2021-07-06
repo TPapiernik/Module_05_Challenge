@@ -48,7 +48,9 @@ Figure 1:
 
 ![Figure 1](analysis/Fig1.png "Figure 1")
 
-Once this summary information was obtained, the analysis proceeded to generate a graphical representation of the Total Fare, by City Type, by Week during the time under consideration. This is shown below in Figure 2.
+Once this summary information was obtained, the analysis proceeded to generate a graphical representation of the Total Fare, by City Type, by Week during the time under consideration. This is shown in Figure 2 below.
+
+Looking at Figure 2, you can see that broadly over time the Total Fares per Week for each city type remain relatively constant, but there is some seasonal variabion that can be commented on, as well as the relative level of Total Fares. The Urban Cities consistently have higher Total Fares, owing to the fact that they have a much larger number of rides overall. The Urban Cities have lower Total Fares in the winter months of January and Febuary, while they increase moving into March, April, and May. The Suburban Cities look to be having an increase in Total Fares of late from April moving in to May. These results must be monitired to see how this trend develops going forward into Summer. All three city types experienced an increase in Total Fares in late February, and the Rural Cities show an increase in Total Fares at the beginning of April. Further investigation is needed to further explain these trends.
 
 Figure 2:
 
@@ -61,3 +63,5 @@ Figure 3:
 ![Figure 3](analysis/Fig3.png "Figure 3")
 
 ## Summary
+
+
