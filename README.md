@@ -45,6 +45,6 @@ Within a Python Jupyter Notebook, the two input files were combined using their 
 Figure 1 shows a summary of the rides data, including the Total Fares, Average Fare per Ride, and Average Fare per Driver, broken down according to City Type.
 
 Figure 1: 
-[!Figure 1](analysis/Fig1.png "Figure 1")
+![Figure 1](analysis/Fig1.png "Figure 1")
 
 ## Summary
