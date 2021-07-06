@@ -51,17 +51,17 @@ Figure 2 below shows how the Number of Drivers per City differs greatly between 
 
 ![Figure 2](analysis/Fig2.png "Figure 2")
 
-Once this summary information was obtained, the analysis proceeded to generate a graphical representation of the Total Fare, by City Type, by Week during the time under consideration. This is shown in Figure 2 below.
+Once this summary information was obtained, the analysis proceeded to generate a graphical representation of the Total Fare, by City Type, by Week during the time under consideration. This is shown in Figure 3 below.
 
 Looking at Figure 3, you can see that broadly over time the Total Fares per Week for each city type remain relatively constant, but there is some seasonal variabion that can be commented on, as well as the relative level of Total Fares.
 
-The Urban Cities consistently have higher Total Fares, owing to the fact that they have a much larger number of rides overall. The Urban Cities have lower Total Fares in the winter months of January and Febuary, while they increase moving into March, April, and May. The Suburban Cities look to be having an increase in Total Fares of late from April moving in to May. These results must be monitired to see how this trend develops going forward into Summer. All three city types experienced an increase in Total Fares in late February, and the Rural Cities show an increase in Total Fares at the beginning of April. Further investigation is needed to further explain these trends.
+The Urban Cities consistently have higher Total Fares, owing to the fact that they have a much larger number of rides overall. The Urban Cities have lower Total Fares in the winter months of January and Febuary, while they increase moving into March, April, and May. The Suburban Cities look to be having an increase in Total Fares from April moving in to May, but these results must be monitired to see if this trend continues. All three city types experienced an increase in Total Fares in late February, and the Rural Cities show an increase in Total Fares at the beginning of April. Further investigation is needed to explain these trends.
 
 Figure 3:
 
 ![Figure 3](analysis/PyBer_fare_summary.png "Figure 3")
 
-Another way to look at the information provided is to look at the Average Fare per City versus the Total Number of Rides per City. The Number of Drivers per City can also be incorporated into this visualization to help tell a more complete story. This is shown below in Figure 3.
+Another way to look at the information provided is to look at the Average Fare per City versus the Total Number of Rides per City. The Number of Drivers per City can also be incorporated into this visualization to help tell a more complete story. This is shown below in Figure 4.
 
 Figure 4:
 
@@ -69,4 +69,14 @@ Figure 4:
 
 ## Summary
 
+Additional information, such as distance per Ride and Population for each City could allow for more in-depth analysis, but as it stands now there are still some general conclusions that can be reached by looking at this dataset.
 
+- The Average Fares are generally higher in the Rural Cities, owing to the fact that there are definitely fewer drivers present in those areas, and we can infer that there are also fewer passengers desiring transportation there as well. When a Ride is desired, it is more likely to be of a greater distance, using a scarcer resource of drivers in the area.
+- Conversely, Average Fares are lower in the Urban Cities, presumably due to the shorter distance of each Ride, combined with the higher number of drivers present in those areas. However, this shortcoming is compensated for by the much greater number of Rides overall, yielding higher Total Fares.
+- Most seasonal variation affects all three City Types roughly equally, but moving in to summer there appears to be some external force driving an increase in total fares in the Suburban Cities much more than the Rural or Urban Cities.
+
+### Business Recommendations:
+
+1. Continue to devote the bulk of expansion efforts in Urban-classified Cities. It is tempting due to the higher Average Fares per Ride to commit resources to the Rural Cities, but owing to their lower populations and lower overall demand for Rides, the point of diminishing returns would be realized much sooner than for their Urban counterparts.
+2. Further investigate the spike in activity in February. Does this pattern hold every year, or was there some occurrence in 2019 that caused it to happen only once. If it is a yearly occurrence, this demand could be anticipated and taken advantage of by fielding a larger number of drivers in each market for greater overall profitibility.
+3. If the upward trend of Total Fares in Suburban Cities continues, consider committing more drivers and resources to these areas. Is this trend a result of a Population Shift, or some other external factor?
