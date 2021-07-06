@@ -34,10 +34,10 @@ The largest number of drivers in one city is 73 in West Samuelburgh, which is Ur
 
 
 ### Data Quality
+
 Neither input file contains any NULL values. All records correspond to the correct field, using the correct units, and corresponding to the expected data type. Comma delimiters are consistently used.
 
 ## Results
-
 
 Within a Python Jupyter Notebook, the two input files were combined using their common `city` field. This combined dataset was used for the remainder of the analysis.
 
