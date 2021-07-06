@@ -9,11 +9,8 @@ Interesting trends should be noted, any disparities commented upon, and recommen
 
 ### Resources
 
-To aid in the analysis, Management provided the team with two raw-data source files:
-```{Text}
-city_data.csv
-ride_data.csv
-```
+- Data Source(s): `city_data.csv`, `ride_data.csv` (Provided by Management)
+- Software: Jupyter notebook server 6.3.0, running Python 3.7.10 64-bit (Dependencies:  matplotlib, numpy, os, pandas)
 
 `city_data.csv` contains a list of 120 Cities currently served by PyBer at the time of this report. Each city has its current Driver Count listed, as well as a classification of city type: *Urban, Suburban,* or *Rural.*
 
@@ -38,6 +35,16 @@ The largest number of drivers in one city is 73 in West Samuelburgh, which is Ur
 
 ## Results
 
+### Data Quality
+Neither input file contains any NULL values. All records correspond to the correct field, using the correct units, and corresponding to the expected data type.
 
+### Results
+
+Within a Python Jupyter Notebook, the two input files were combined using their common `city` field. This combined dataset was used for the remainder of the analysis.
+
+Figure 1 shows a summary of the rides data, including the Total Fares, Average Fare per Ride, and Average Fare per Driver, broken down according to City Type.
+
+Figure 1: 
+[!Figure 1](analysis/Fig1.png "Figure 1")
 
 ## Summary
