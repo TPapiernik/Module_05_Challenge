@@ -33,34 +33,39 @@ The largest number of drivers in one city is 73 in West Samuelburgh, which is Ur
 |Rural    |125             |
 
 
+### Data Quality
+Neither input file contains any NULL values. All records correspond to the correct field, using the correct units, and corresponding to the expected data type. Comma delimiters are consistently used.
+
 ## Results
 
-### Data Quality
-Neither input file contains any NULL values. All records correspond to the correct field, using the correct units, and corresponding to the expected data type.
-
-### Results
 
 Within a Python Jupyter Notebook, the two input files were combined using their common `city` field. This combined dataset was used for the remainder of the analysis.
 
-Figure 1 shows a summary of the rides data, including the Total Fares, Average Fare per Ride, and Average Fare per Driver, broken down according to City Type.
+Figure 1 below shows a summary of the combined cities and rides data. The Urban Cities represent the bulk of the Rides and Fares (13x the Rural Rides, and 9x the Rural Fares). There are a Total of 30x more drivers in all of the Urban Cities than there are in all of the Rural Cities. Conversely, the Average Fare per Ride and the Average Fare per Driver are more in the Rural Cities. In each of these cases, the results in the Suburban Cities are somewhere in the middle.
 
 Figure 1: 
 
 ![Figure 1](analysis/Fig1.png "Figure 1")
 
+Figure 2 below shows how the Number of Drivers per City differs greatly between the different city types. The Urban Cities have a wide distribution, with Driver Counts between 3 and 73 (Mean of 36), while the Rural Cities only have between 1 and 9 Drivers per City (Mean of 4).
+
+![Figure 2](analysis/Fig2.png "Figure 2")
+
 Once this summary information was obtained, the analysis proceeded to generate a graphical representation of the Total Fare, by City Type, by Week during the time under consideration. This is shown in Figure 2 below.
 
-Looking at Figure 2, you can see that broadly over time the Total Fares per Week for each city type remain relatively constant, but there is some seasonal variabion that can be commented on, as well as the relative level of Total Fares. The Urban Cities consistently have higher Total Fares, owing to the fact that they have a much larger number of rides overall. The Urban Cities have lower Total Fares in the winter months of January and Febuary, while they increase moving into March, April, and May. The Suburban Cities look to be having an increase in Total Fares of late from April moving in to May. These results must be monitired to see how this trend develops going forward into Summer. All three city types experienced an increase in Total Fares in late February, and the Rural Cities show an increase in Total Fares at the beginning of April. Further investigation is needed to further explain these trends.
+Looking at Figure 3, you can see that broadly over time the Total Fares per Week for each city type remain relatively constant, but there is some seasonal variabion that can be commented on, as well as the relative level of Total Fares.
 
-Figure 2:
-
-![Figure 2](analysis/PyBer_fare_summary.png "Figure 2")
-
-Another way to look at the information provided is to look at the Average Fare per City versus the Total Number of Rides per City. The Number of Drivers per City can also be incorporated into this visualization to help tell a more complete story. This is shown below in Figure 3.
+The Urban Cities consistently have higher Total Fares, owing to the fact that they have a much larger number of rides overall. The Urban Cities have lower Total Fares in the winter months of January and Febuary, while they increase moving into March, April, and May. The Suburban Cities look to be having an increase in Total Fares of late from April moving in to May. These results must be monitired to see how this trend develops going forward into Summer. All three city types experienced an increase in Total Fares in late February, and the Rural Cities show an increase in Total Fares at the beginning of April. Further investigation is needed to further explain these trends.
 
 Figure 3:
 
-![Figure 3](analysis/Fig3.png "Figure 3")
+![Figure 3](analysis/PyBer_fare_summary.png "Figure 3")
+
+Another way to look at the information provided is to look at the Average Fare per City versus the Total Number of Rides per City. The Number of Drivers per City can also be incorporated into this visualization to help tell a more complete story. This is shown below in Figure 3.
+
+Figure 4:
+
+![Figure 4](analysis/Fig4.png "Figure 4")
 
 ## Summary
 
