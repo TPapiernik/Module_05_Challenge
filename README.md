@@ -48,4 +48,10 @@ Figure 1:
 
 ![Figure 1](analysis/Fig1.png "Figure 1")
 
+Once this summary information was obtained, the analysis proceeded to generate a graphical representation of the Total Fare, by City Type, by Week during the time under consideration. This is shown below in Figure 2.
+
+Figure 2:
+
+![Figure 2](analysis/PyBer_fare_summary.png "Figure 2")
+
 ## Summary
